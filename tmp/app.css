@@ -1,0 +1,53 @@
+/* Import the row and col snippets from _layout.scss */
+/* Define variables for colours	*/
+/* Style various elements of the page */
+body {
+  margin: 0; }
+
+header {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100px; }
+
+.content {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  top: 100px;
+  bottom: 50px; }
+
+.footer {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  text-align: center; }
+
+.editor {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #DDD;
+  border: 1px solid #000; }
+
+textarea.input {
+  height: 100%;
+  padding: 1%;
+  width: 100%; }
+
+.preview {
+  padding: 1%;
+  right: 0; }
+
+/*# sourceMappingURL=app.css.map */

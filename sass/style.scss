@@ -1,0 +1,46 @@
+/* Import the row and col snippets from _layout.scss */
+@import 'layout';
+
+/* Define variables for colours	*/
+$backgroundColor: #DDD;
+$borderColor: #000;
+
+/* Style various elements of the page */
+body { margin: 0}
+
+header {
+	@include row;
+	height: 100px;
+}
+
+.content {
+	@include row;
+	overflow-y: auto;
+	top: 100px;
+	bottom: 50px;
+}
+
+.footer {
+	@include row;
+	bottom: 0;
+	height: 50px;
+	text-align: center;
+}
+
+.editor {
+	@include col;
+	width: 50%;
+	background-color: $backgroundColor;
+	border: 1px solid $borderColor;
+}
+
+textarea.input {
+	height: 100%;
+	padding: 1%;
+	width: 100%;
+}
+
+.preview {
+	padding: 1%;
+	right: 0;
+}
